@@ -92,7 +92,7 @@ public abstract class Aplicant{
 		System.out.println("Aplicantul "+ nume + " "+ prenume
 				 + (punctajObtinut > pragAcceptare ? "" : " nu") 
 				+ " a fost acceptat");
-	}
+	} 
 	
 	public abstract void afisareFinantare();
 
