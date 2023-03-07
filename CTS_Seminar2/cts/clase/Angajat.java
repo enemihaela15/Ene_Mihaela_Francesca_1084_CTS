@@ -22,7 +22,7 @@ public class Angajat extends Aplicant{
 	}
 	public Angajat() {
 		super();
-		
+
 	}
 	
 	public String getOcupatie() {

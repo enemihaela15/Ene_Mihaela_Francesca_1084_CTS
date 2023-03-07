@@ -1,5 +1,6 @@
 package cts.clase;
 
+// clasa abstracta
 public abstract class Aplicant{
 	protected String nume;
 	protected String prenume;
