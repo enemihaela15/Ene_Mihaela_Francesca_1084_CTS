@@ -23,5 +23,10 @@ public class Main {
         Firma firma2 = Firma.getFirma("Firma2");
         Firma firma3 = Firma.getFirma("Firma3");
         Firma firma4 = Firma.getFirma("Firma1");
+
+        firma1.setNrAngajati(10);
+        firma2.setNrAngajati(15);
+        firma3.setNrAngajati(7);
+        firma4.setNrAngajati(20);
     }
 }
