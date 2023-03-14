@@ -1,16 +1,12 @@
-package cts.singleton;
-
-import java.util.HashMap;
-import java.util.Map;
+package cts.singletonregistry;
 
 public class Firma {
     private String nume;
     private int nrAngajati;
-    private static Map<String, Firma> registru = new HashMap<>() ;
 
-    private Firma(String nume, int nrAngajati) {
-        this.nume = nume;
+    protected Firma(String nume, int nrAngajati) {
         this.nrAngajati = nrAngajati;
+        this.nume = nume;
     }
 
     public String getNume() {
@@ -29,21 +25,15 @@ public class Firma {
         this.nrAngajati = nrAngajati;
     }
 
-    public static Firma getFirma(String nume) {
-        if (registru.containsKey(nume)) {
-            return registru.get(nume);
-        } else {
-            Firma firma = new Firma(nume, 0);
-            registru.put(nume, firma);
-            return firma;
-        }
-    }
-
     @Override
     public String toString() {
         return "Firma{" +
                 "nume='" + nume + '\'' +
                 ", nrAngajati=" + nrAngajati +
                 '}';
+    }
+
+    public void angajeaza() {
+        this.nrAngajati++;
     }
 }

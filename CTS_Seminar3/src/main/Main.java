@@ -1,3 +1,5 @@
+package main;
+
 import cts.singleton.Decan;
 import cts.singleton.Firma;
 import cts.singleton.Rector;
@@ -28,5 +30,11 @@ public class Main {
         firma2.setNrAngajati(15);
         firma3.setNrAngajati(7);
         firma4.setNrAngajati(20);
+
+        System.out.println(firma1.toString());
+        System.out.println(firma2.toString());
+        System.out.println(firma3.toString());
+        System.out.println(firma4.toString());
+
     }
 }
