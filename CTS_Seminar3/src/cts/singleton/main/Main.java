@@ -1,4 +1,4 @@
-package main;
+package cts.singleton.main;
 
 import cts.singleton.Decan;
 import cts.singleton.Firma;

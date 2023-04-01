@@ -1,4 +1,4 @@
-package main;
+package cts.singletonregistry.main;
 
 import cts.singletonregistry.Firma;
 import cts.singletonregistry.Registru;
