@@ -1,8 +1,8 @@
 package spital_simple_factory.main;
 
-import spital_simple_factory.Factory;
-import spital_simple_factory.PersonalSpital;
-import spital_simple_factory.TipPersonalSpital;
+import spital_simple_factory.clase.Factory;
+import spital_simple_factory.clase.PersonalSpital;
+import spital_simple_factory.clase.TipPersonalSpital;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package spital_simple_factory;
+package spital_factory_method.clase;
 
 public class Medic implements PersonalSpital{
 
@@ -18,6 +18,6 @@ public class Medic implements PersonalSpital{
 
     @Override
     public void descriere() {
-        System.out.println("Medicul: " + this.nume);
+        System.out.println("Medicul: "+ this.nume);
     }
 }

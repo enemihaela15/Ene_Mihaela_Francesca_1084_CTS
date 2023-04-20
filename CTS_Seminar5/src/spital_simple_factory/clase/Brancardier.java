@@ -1,10 +1,10 @@
-package spital_factory_method;
+package spital_simple_factory.clase;
 
-public class Medic implements PersonalSpital{
+public class Brancardier implements PersonalSpital{
 
     private String nume;
 
-    public Medic(String nume) {
+    public Brancardier(String nume) {
         this.nume = nume;
     }
 
@@ -18,6 +18,6 @@ public class Medic implements PersonalSpital{
 
     @Override
     public void descriere() {
-        System.out.println("Medicul: "+ this.nume);
+        System.out.println("Brancardierul: " + this.nume);
     }
 }

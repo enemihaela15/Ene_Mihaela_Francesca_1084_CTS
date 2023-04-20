@@ -1,4 +1,4 @@
-package spital_simple_factory;
+package spital_simple_factory.clase;
 
 public class Factory {
 

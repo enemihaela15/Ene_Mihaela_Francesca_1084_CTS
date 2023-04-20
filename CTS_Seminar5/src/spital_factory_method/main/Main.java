@@ -1,6 +1,6 @@
 package spital_factory_method.main;
 
-import spital_factory_method.*;
+import spital_factory_method.clase.*;
 
 import java.util.ArrayList;
 import java.util.List;

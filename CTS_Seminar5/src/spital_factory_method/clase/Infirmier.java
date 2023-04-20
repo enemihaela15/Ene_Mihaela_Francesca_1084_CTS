@@ -1,4 +1,4 @@
-package spital_factory_method;
+package spital_factory_method.clase;
 
 public class Infirmier implements PersonalSpital{
     private String nume;

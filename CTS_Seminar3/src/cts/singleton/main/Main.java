@@ -6,7 +6,7 @@ import cts.singleton.Rector;
 
 public class Main {
     public static void main(String[] args) {
-        // Lazy initialization
+//         //Lazy initialization
 //        Rector rector1 = Rector.getInstanta("Popescu Ion", 2, 50);
 //        Rector rector2 = Rector.getInstanta("Marinescu Mihai", 3, 60);
 //

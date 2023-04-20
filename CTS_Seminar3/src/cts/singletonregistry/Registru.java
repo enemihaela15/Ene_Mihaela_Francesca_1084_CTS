@@ -11,7 +11,6 @@ public class Registru {
             Firma firma = new Firma(nume, 0);
             registru.put(nume, firma);
         }
-
         return registru.get(nume);
     }
 }

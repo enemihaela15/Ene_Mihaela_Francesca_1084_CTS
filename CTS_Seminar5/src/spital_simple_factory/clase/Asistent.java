@@ -1,4 +1,4 @@
-package spital_factory_method;
+package spital_simple_factory.clase;
 
 public class Asistent implements PersonalSpital{
 
@@ -18,6 +18,6 @@ public class Asistent implements PersonalSpital{
 
     @Override
     public void descriere() {
-        System.out.println("Asistentul: "+this.nume);
+        System.out.println("Asistentul: "+ this.nume);
     }
 }

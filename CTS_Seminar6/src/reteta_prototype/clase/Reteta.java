@@ -37,7 +37,6 @@ public class Reteta implements IReteta {
 
 
     public void setSolutii(Map<String, Float> solutii) {
-        this.solutii = solutii;
         this.solutii = new HashMap();
 
         for(String key: solutii.keySet())
