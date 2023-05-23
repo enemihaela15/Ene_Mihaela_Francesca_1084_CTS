@@ -2,8 +2,6 @@ package restaurant.adapter.bar;
 
 public class SoftBar implements ISoftBar{
     private String denumire;
-    private double totalPlata;
-
     public SoftBar(String denumire) {
         this.denumire = denumire;
     }

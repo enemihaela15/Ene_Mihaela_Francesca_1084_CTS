@@ -2,7 +2,6 @@ package restaurant.adapter.bucatarie;
 
 public class SoftRestaurant implements ISoftRestaurant{
     private String bucatar;
-    private double totalPlata;
 
     public SoftRestaurant(String bucatar) {
         this.bucatar = bucatar;
